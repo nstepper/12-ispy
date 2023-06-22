@@ -1,0 +1,35 @@
+{
+  "name": "12-ispy",
+  "version": "1.0.0",
+  "description": "a command line application that can track employees and managers",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nstepper/12-ispy.git"
+  },
+  "keywords": [
+    "tracker",
+    "database",
+    "employee",
+    "check"
+  ],
+  "author": "Nathan Stepper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nstepper/12-ispy/issues"
+  },
+  "homepage": "https://github.com/nstepper/12-ispy#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.4.0"
+  }
+}
