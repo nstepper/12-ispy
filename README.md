@@ -26,6 +26,8 @@ DB_NAME=employee_tracker_db
 
 ## Demo 
 
+![Demo GIF](./12-ispy.gif)
+
 
 ## License
 
